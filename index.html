@@ -6,14 +6,28 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Podpinam Style Bootrap -->
-    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <!-- Glowny plik LESS -->
+    <link rel="stylesheet" type="text/less" href="source/style.less">
 
-    <!-- Podpinam Font Awesome -->
+    <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/34189c6f98.js"></script>
+    <!-- Fonty google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
 
-    <!-- Podpinam JS Bootrap -->
-    <script src="bootstrap/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- JS Bootrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- LESS>JS - automatyczna kompilacja do css -->
+    <script src="js/less.min.js"></script>
+
+    <!-- Wlasny JS -->
+    <script src="js/custom.js"></script>
+
 </head>
 <body>
 
@@ -791,6 +805,10 @@
 
     </div> <!-- Koniec main-content -->
 </div>  <!-- Koniec main-container-->
+
+<script>
+    localStorage.clear();
+</script>
 
 </body>
 </html>
