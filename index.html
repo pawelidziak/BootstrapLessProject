@@ -75,8 +75,6 @@
                         </nav>
                         <!-- clearfix dla naglowka-->
                         <div class="clearfix"></div>
-
-
                     </div>
                 </div>
             </div>
@@ -84,6 +82,83 @@
         </div>
     </header>
 
+    <!-- odsuwam zawartosc od naglowka -->
+    <div class="top-separator"></div>
+    <!-- clearfix dla naglowka-->
+    <div class="clearfix"></div>
+
+    <!-- Gorny slider (karuzela bootstrapa -->
+    <section class="top-slider">
+        <div id="top-slider" class="carousel slide" data-ride="carousel">
+            <!-- Kontrolki -->
+            <ol class="carousel-indicators">
+                <li data-target="#top-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#top-slider" data-slide-to="1"></li>
+                <li data-target="#top-slider" data-slide-to="2"></li>
+            </ol>
+            <!-- Zawartosc slidera -->
+            <div class="carousel-inner" role="listbox">
+                <!-- Pojedynczy slajd -->
+                <div class="item active">
+                    <div class="slide-image" id="slide1"></div>
+                    <!--srodkuje zawartosc-->
+                    <div class="container">
+                        <!--kontener dla pojedynczego slidu-->
+                        <div class="item-content">
+                            <h1>Naglowek 1</h1>
+                            <h3>Opis opis opis</h3>
+                            <a class="btn btn-danger">
+                                <i class="fa fa-play-circle-o"></i>
+                                <span>Zobacz więcej!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pojedynczy slajd -->
+                <div class="item">
+                    <div class="slide-image" id="slide2"></div>
+                    <!--srodkuje zawartosc-->
+                    <div class="container">
+                        <!--kontener dla pojedynczego slidu-->
+                        <div class="item-content">
+                            <h1>Naglowek 2</h1>
+                            <h3>Opis opis opis</h3>
+                            <a class="btn btn-danger">
+                                <i class="fa fa-play-circle-o"></i>
+                                <span>Zobacz więcej!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pojedynczy slajd -->
+                <div class="item">
+                    <div class="slide-image" id="slide3"></div>
+                    <!--srodkuje zawartosc-->
+                    <div class="container">
+                        <!--kontener dla pojedynczego slidu-->
+                        <div class="item-content">
+                            <h1>Naglowek 3</h1>
+                            <h3>Opis opis opis</h3>
+                            <a class="btn btn-danger">
+                                <i class="fa fa-play-circle-o"></i>
+                                <span>Zobacz więcej!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strzalki -->
+            <a class="left carousel-control" href="#top-slider" role="button" data-slide="prev">
+                <i class="fa fa-chevron-left"></i>
+                <span class="sr-only">Poprzedni</span>
+            </a>
+            <a class="right carousel-control" href="#top-slider" role="button" data-slide="next">
+                <i class="fa fa-chevron-right"></i>
+                <span class="sr-only">Następny</span>
+            </a>
+        </div>
+    </section>
 </div>
 
 
