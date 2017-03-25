@@ -10,13 +10,84 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
 
     <!-- Podpinam Font Awesome -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/34189c6f98.js"></script>
 
     <!-- Podpinam JS Bootrap -->
     <script src="bootstrap/bootstrap.min.js"></script>
-
 </head>
 <body>
+
+<!-- Mobilne menu -->
+<div class="mobile-menu" id="main-nav-mobile">
+    <a href="" class="mobile-menu-close pull-right" id="mobile-close"><i class="fa fa-times"></i></a>
+    <ul class="main-nav-list-mobile">
+        <li><a href="">Start</a></li>
+        <li><a href="">Start</a></li>
+        <li><a href="">Start</a></li>
+        <li><a href="">Start</a></li>
+        <li><a href="">Start</a></li>
+        <li><a href="">Start</a></li>
+    </ul>
+</div>
+
+<!-- Glowny kontener -->
+<div id="main-container">
+
+    <!-- Naglowek -->
+    <header class="main-header alt-bg">
+        <div class="header-content">
+
+            <!-- Kontener bootstrapa -->
+            <div class="container">
+                <div class="row">
+
+                    <!-- Zaczynam od najmniejszego - na 12 kolumn-->
+                    <div class="col-xs-12">
+                        <!-- Logo -->
+                        <div class="logo-wrapper pull-left">
+                            <a href="" class="main-logo">
+                                <img src="http://placehold.it/270x40">
+                            </a>
+                        </div>
+                        <!-- Ikony po prawej -->
+                        <div class="nav-right pull-right">
+                            <ul>
+                                <li><a href=""><i class="fa fa-search"></i></a></li>
+                                <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Glowne menu -->
+                        <nav class="nav-main pull-right" id="main-nav">
+                            <!--przycisk menu mobilnego ukrywam na urzadzeniach srednich oraz duzych -->
+                            <a href="" class="mobile-nav-button hidden-md hidden-lg">
+                                <i class="fa fa-bars"></i>
+                            </a>
+
+                            <!-- lista dla urzadzen md i lg-->
+                            <ul class="main-nav-list visible-md visible-lg">
+                                <li><a href="">Start</a></li>
+                                <li><a href="">Start</a></li>
+                                <li><a href="">Start</a></li>
+                                <li><a href="">Start</a></li>
+                                <li><a href="">Start</a></li>
+                                <li><a href="">Start</a></li>
+                            </ul>
+                        </nav>
+                        <!-- clearfix dla naglowka-->
+                        <div class="clearfix"></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+</div>
+
+
+
 
 </body>
 </html>
