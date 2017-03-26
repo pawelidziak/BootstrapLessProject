@@ -1,0 +1,106 @@
+// Ogolne style dla slidera
+@slider-height: 500px;
+.top-slider {
+  min-height: @slider-height;
+  z-index: 0;
+  .relative;
+  .container {
+    .absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: transformY(-50%); // poniewaz zawartosc przesuwam od gornej krawedzi, a chce od srodka
+  }
+
+  .carousel-inner, .item {
+    min-height: @slider-height;
+  }
+}
+
+#top-slider {
+  position: fixed;
+  width: 100%;
+}
+
+// Obrazy dla slidera
+#slide1 {
+  .bg-image(url('http://placehold.it/1920x970'));
+}
+
+#slide2 {
+  .bg-image(url('http://placehold.it/1000x500'));
+}
+
+#slide3 {
+  .bg-image(url('http://placehold.it/1400x770'));
+}
+
+.slide-image {
+  .absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  &:after {
+    .dark-overlay;
+  }
+}
+
+// Zawartośc slajdu
+.item-content {
+  color: @light-gray;
+  .center-text;
+  h1 {
+    margin-bottom: 20px;
+    line-height: 1;
+    font-family: @font-family-secondary;
+    font-weight: 700;
+    font-size: 24px;
+    .upper;
+    @media @small {
+      font-size: 56px;
+    }
+    @media @medium {
+      font-size: 75px;
+    }
+  }
+  h3 {
+    margin-bottom: 30px;
+    line-height: 1.1;
+    font-size: 20px;
+    @media @small {
+      font-size: 32px;
+    }
+  }
+
+}
+
+// Strzalki slidera
+.carousel-control {
+  .basic-transition;
+  .block;
+  .absolute;
+  outline: none;
+  top: 50%;
+  text-align: left;
+  background: none !important;
+  .center-text;
+  .size(88px; 78px);
+  margin: -35px 0 0;
+  &:hover {
+    background-color: @brand-primary !important;
+  }
+  i {
+    .icon(@bright-text-color; 30px; 78px);
+    text-shadow: none;
+    opacity: 0.7;
+  }
+  &:hover > i {
+    opacity: 1;
+  }
+}
+
+.carousel-indicators {
+  bottom: 80px;
+}
