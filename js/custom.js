@@ -9,6 +9,7 @@ $(document).ready(function () {
         interval: 4000
     })
 
+    // promo slider
     $('#promo-slider').carousel({
         interval: 3000
     })
