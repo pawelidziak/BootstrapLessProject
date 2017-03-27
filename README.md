@@ -1,3 +1,6 @@
 # BootstrapLessProject
+Project of website, which can be used as „company card”. 
 
-Project in progress
+Live: https://pawelidziak.github.io/BootstrapLessProject/
+
+(Still in progress)
