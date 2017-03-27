@@ -20,6 +20,8 @@ $(document).ready(function () {
     // odliczanie (statystyki)
     $('.timer').countTo();
 
+    // Scrollr - paralax dla slidera
+    var s = skrollr.init({forceHeight: false});
 });
 
 

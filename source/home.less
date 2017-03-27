@@ -43,11 +43,12 @@
   }
   img {
     .basic-transition;
+    -webkit-backface-visibility: hidden; //poprawka hover dla chrome
     &:hover {
       opacity: 0.65;
     }
   }
-  margin-bottom: 0;
+  //margin-bottom: 0;
 }
 
 .photo-bar-image {
