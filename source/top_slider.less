@@ -104,3 +104,17 @@
 .carousel-indicators {
   bottom: 20px;
 }
+
+// "Slider" mobilny
+.mobile-slider {
+  .bg-image(url('http://placehold.it/1400x770'));
+  &:after{          // ciemniejsze tlo
+    .dark-overlay;  // ciemniejsze tlo
+  }
+  .item-content {
+    .padding-top-bottom(80px; 80px);
+    .relative;      // ciemniejsze tlo
+    z-index: 1;     // ciemniejsze tlo
+
+  }
+}
