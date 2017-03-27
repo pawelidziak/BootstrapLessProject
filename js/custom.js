@@ -20,17 +20,19 @@ $(document).ready(function () {
     // odliczanie (statystyki)
     $('.timer').countTo();
 
-    // Scrollr - paralax dla slidera
-    var s = skrollr.init({forceHeight: false});
+    // Logo dla malych urzadzen
+    if (document.documentElement.clientWidth < 480) {
+        $('.main-logo').html('<img src="https://placehold.it/100x40" alt="" />');
+    }
 });
 
 
 // zmiana wysokosci headera (scroll dla naglowka)
 $(window).bind('scroll', function (event) {
-    if($(window).scrollTop() > 20){
+    if ($(window).scrollTop() > 20) {
         $('.main-header').addClass('header-short');
         $('.main-logo img').css('max-height', 28);
-    }else{
+    } else {
         $('.main-header').removeClass('header-short');
         $('.main-logo img').css('max-height', 42);
     }

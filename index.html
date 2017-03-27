@@ -25,14 +25,22 @@
     <!-- LESS>JS - automatyczna kompilacja do css -->
     <!--<script src="js/less.min.js"></script>-->
 
+    <!-- Warunkowe ladowanie Skrollr - paralax -->
+    <!-- laduje tylko dla duzych urzadzen (>1200px) szerokosci -->
+    <script>
+        if (document.documentElement.clientWidth > 1200) {
+            $.getScript("js/skrollr.min.js", function () {
+                var s = skrollr.init({forceHeight: false});
+            });
+        }
+    </script>
+
     <!-- Wlasny JS -->
     <script src="js/custom.js"></script>
 
     <!-- CountTo - odliczanie JS -->
     <script src="js/jquery.countTo.js"></script>
 
-    <!-- Skrollr - paralax -->
-    <script src="js/skrollr.min.js"></script>
 
 </head>
 <body>
@@ -66,7 +74,7 @@
                         <!-- Logo -->
                         <div class="logo-wrapper pull-left">
                             <a href="" class="main-logo">
-                                <img src="https://placehold.it/100x40">
+                                <img src="https://placehold.it/270x40">
                             </a>
                         </div>
                         <!-- Ikony po prawej -->
@@ -429,85 +437,85 @@
                         </header>
                     </div>
                 </div>
-                    <!-- Pierwszy wiersz -->
-                    <div class="row">
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 1</h3>
-                                <p>You have to disturb, and emerge core by your disappearing. Mind is not remarkable in
-                                    hell, the kingdom, or shangri-la, but everywhere.</p>
-                            </div>
-                        </div>
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 2</h3>
-                                <p>The guru has heaven, but not everyone hurts it. One must believe the aspect in order
-                                    to shape the monkey of searious zen.</p>
-                            </div>
-                        </div>
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 3</h3>
-                                <p>Always cosmically yearn the honorable master. Yes, there is over there, it disturbs
-                                    with attitude.</p>
-                            </div>
-                        </div>
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 4</h3>
-                                <p>Courage, booda-hood and a boundless kingdom. As i have visualized you, so you must
-                                    synthesise one another.</p>
-                            </div>
+                <!-- Pierwszy wiersz -->
+                <div class="row">
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 1</h3>
+                            <p>You have to disturb, and emerge core by your disappearing. Mind is not remarkable in
+                                hell, the kingdom, or shangri-la, but everywhere.</p>
                         </div>
                     </div>
-                    <!-- Drugi wiersz -->
-                    <div class="row">
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 5</h3>
-                                <p>When the seeker of acceptance synthesises the meditations of the creator, the
-                                    enlightenment will know doer. All unprepared believers trap each other, only
-                                    unbiased cows have a definition.</p>
-                            </div>
-                        </div>
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 6</h3>
-                                <p>When the power of meditation visualizes the volumes of the karma, the relativity will
-                                    know saint. Always spiritually fear the remarkable body.</p>
-                            </div>
-                        </div>
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 7</h3>
-                                <p>Living doesn’t theosophically follow any power — but the lord is what rises. The
-                                    thought is an abstruse thing.</p>
-                            </div>
-                        </div>
-                        <!--Pojedynczy element-->
-                        <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
-                            <span><i class="fa fa-circle-o"></i></span>
-                            <div class="offer-text">
-                                <h3>Heading 8</h3>
-                                <p>If you grow or occur with a searious enlightenment, sorrow realizes you. One ancient
-                                    manifestation i give you: develop each other.</p>
-                            </div>
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 2</h3>
+                            <p>The guru has heaven, but not everyone hurts it. One must believe the aspect in order
+                                to shape the monkey of searious zen.</p>
                         </div>
                     </div>
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 3</h3>
+                            <p>Always cosmically yearn the honorable master. Yes, there is over there, it disturbs
+                                with attitude.</p>
+                        </div>
+                    </div>
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 4</h3>
+                            <p>Courage, booda-hood and a boundless kingdom. As i have visualized you, so you must
+                                synthesise one another.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Drugi wiersz -->
+                <div class="row">
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 5</h3>
+                            <p>When the seeker of acceptance synthesises the meditations of the creator, the
+                                enlightenment will know doer. All unprepared believers trap each other, only
+                                unbiased cows have a definition.</p>
+                        </div>
+                    </div>
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 6</h3>
+                            <p>When the power of meditation visualizes the volumes of the karma, the relativity will
+                                know saint. Always spiritually fear the remarkable body.</p>
+                        </div>
+                    </div>
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 7</h3>
+                            <p>Living doesn’t theosophically follow any power — but the lord is what rises. The
+                                thought is an abstruse thing.</p>
+                        </div>
+                    </div>
+                    <!--Pojedynczy element-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 offer-single">
+                        <span><i class="fa fa-circle-o"></i></span>
+                        <div class="offer-text">
+                            <h3>Heading 8</h3>
+                            <p>If you grow or occur with a searious enlightenment, sorrow realizes you. One ancient
+                                manifestation i give you: develop each other.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
