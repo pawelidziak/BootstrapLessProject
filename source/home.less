@@ -46,6 +46,7 @@
       opacity: 0.65;
     }
   }
+  margin-bottom: 0;
 }
 
 .photo-bar-image {
@@ -216,7 +217,7 @@
     @media @small {
       margin-bottom: 0;
     }
-    i{
+    i {
       color: @bright-text-color;
     }
   }
@@ -224,5 +225,39 @@
     .v-align;
     .icon(lighten(@icon-color, 10%); 24px; 1);
     margin-right: 15px;
+  }
+}
+
+// Sekcja pelna oferta
+.offer {
+  .padding-top-bottom(50px; 50px);
+  .center-text;
+  div[class*="col-"] {
+    margin-bottom: 50px;
+  }
+  @media @small {
+    .padding-top-bottom(100px; 40px);
+    text-align: initial; //przywrocenie "normalnego" stylu tekstu -> do lewej
+  }
+}
+
+.offer-single {
+  i {
+    .icon(@brand-primary; 32px; 32px);
+    margin: 15px;
+    @media @small {
+      float: left;
+      margin-right: 25px;
+    }
+  }
+}
+
+.offer-text {
+  h3 {
+    font-weight: 600;
+    .upper;
+  }
+  p{
+    overflow: hidden; // dzieki temu tekst nie nachodzi na lewa strone pod ikona
   }
 }
