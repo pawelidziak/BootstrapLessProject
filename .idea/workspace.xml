@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a27c0d75-1383-46ec-8898-0e9a95802948" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/home.less" afterPath="$PROJECT_DIR$/source/home.less" />
     </list>
@@ -24,8 +23,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="327" column="76" lean-forward="true" selection-start-line="327" selection-start-column="76" selection-end-line="327" selection-end-column="89" />
+                <state relative-caret-position="451">
+                  <caret line="374" column="69" lean-forward="false" selection-start-line="374" selection-start-column="44" selection-end-line="374" selection-end-column="69" />
                   <folding>
                     <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -60,8 +59,8 @@
           <file leaf-file-name="home.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/home.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="749">
-                  <caret line="154" column="8" lean-forward="false" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+                <state relative-caret-position="715">
+                  <caret line="219" column="32" lean-forward="false" selection-start-line="219" selection-start-column="32" selection-end-line="219" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -306,12 +305,12 @@
       <workItem from="1490449952757" duration="92000" />
       <workItem from="1490450054364" duration="14175000" />
       <workItem from="1490537430963" duration="12752000" />
-      <workItem from="1490599057309" duration="6201000" />
+      <workItem from="1490599057309" duration="7156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36623000" />
+    <option name="totallyTimeSpent" value="37578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -522,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="327" column="76" lean-forward="true" selection-start-line="327" selection-start-column="76" selection-end-line="327" selection-end-column="89" />
+        <state relative-caret-position="451">
+          <caret line="374" column="69" lean-forward="false" selection-start-line="374" selection-start-column="44" selection-end-line="374" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -532,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="154" column="8" lean-forward="false" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+        <state relative-caret-position="715">
+          <caret line="219" column="32" lean-forward="false" selection-start-line="219" selection-start-column="32" selection-end-line="219" selection-end-column="32" />
           <folding />
         </state>
       </provider>

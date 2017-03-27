@@ -156,3 +156,73 @@
     margin-top: 0;
   }
 }
+
+// Sekcja Nasze Zalety
+.our-adventages {
+  .padding-top-bottom(50px; 50px);
+  @media @small {
+    .padding-top-bottom(100px; 100px);
+  }
+  .intro-text {
+    margin-bottom: 80px;
+  }
+}
+
+.our-adventages-text {
+  margin-top: 35px;
+  @media @small {
+    margin-left: 40px;
+  }
+  h3 {
+    font-weight: 600;
+    .upper;
+  }
+  p {
+    color: @text-color;
+  }
+}
+
+.our-adventages-list {
+  margin-bottom: 30px;
+  .list-style-none;
+  overflow: auto;
+  @media @small {
+    margin-left: -20px;
+  }
+  li {
+    padding: 4px 0;
+    .block;
+    width: auto;
+    &:before {
+      content: "";
+      .inline-block;
+      margin-right: 12px;
+      background-color: @brand-primary;
+      .size(8px; 2px);
+      .v-align;
+    }
+    @media @medium {
+      float: left;
+      margin-left: 20px;
+      width: 45%;
+    }
+  }
+}
+
+.our-adventages-bottom-row {
+  a {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    @media @small {
+      margin-bottom: 0;
+    }
+    i{
+      color: @bright-text-color;
+    }
+  }
+  i {
+    .v-align;
+    .icon(lighten(@icon-color, 10%); 24px; 1);
+    margin-right: 15px;
+  }
+}
