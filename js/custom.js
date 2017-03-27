@@ -17,6 +17,9 @@ $(document).ready(function () {
     //menu mobilne
     mobileMenu();
 
+    // odliczanie (statystyki)
+    $('.timer').countTo();
+
 });
 
 

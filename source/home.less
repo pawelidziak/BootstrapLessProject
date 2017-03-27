@@ -383,6 +383,7 @@
 
 .promo-description-content {
   font-size: 16px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -424,3 +425,63 @@
     }
   }
 }
+
+// Sekcja statystyki
+.statistics {
+  .padding-top-bottom(60px; 60px);
+  .bg-image(url('http://placehold.it/1000x800'));
+  @media @medium {
+    .padding-top-bottom(100px; 100px);
+  }
+}
+
+.statistics-content {
+  // tekst musi byc wylujstowany - zawartosc musi byc rownomierna
+  .center-text;
+  @media @medium {
+    text-align: justify;
+  }
+}
+
+.statistics-block {
+  .inline-block;
+  margin: 0 15px 25px;
+  .center-text;
+}
+
+.statistics-icon {
+  .inline-block;
+  margin-bottom: 10px;
+  .icon(@bright-text-color, 26px);
+}
+
+.statistics-value {
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  .block;
+  margin-top: 20px;
+  color: @brand-primary;
+  @media @medium {
+    height: 80px;
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+.statistics-text {
+  .icon(@bright-text-color; 15px; 1.4);
+  .block;
+  .upper;
+  margin-top: 20px;
+  opacity: 0.4;
+}
+
+// falszywa druga linia, ktora umozliwi wyjustowanie poprzedniej
+.justify-hack {
+  width: 100%;
+  .inline-block;
+  line-height: 0;
+  font-size: 0;
+}
+
