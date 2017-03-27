@@ -48,13 +48,60 @@
   }
 }
 
-.photo-bar-image{
+.photo-bar-image {
   margin: 0;
   background-color: @dark-bg;
 }
 
-.photo-bar-info{
+.photo-bar-info {
   padding: 30px 0 0;
   min-height: 105px;
   border-left: 1px solid @border-color;
+}
+
+// Sekcja nasze usługi
+.our-services {
+  .padding-top-bottom(100px; 90px);
+}
+
+.our-services-box {
+  .center-text;
+  h4 {
+    .header-mixin(18px; 600);
+    .upper;
+  }
+  span {
+    .basic-border(2px; solid; @icon-color);
+    .icon-span-round(88px);
+    margin-bottom: 30px;
+    i {
+      .relative;
+      .icon(@icon-color; 32px; 88px);
+      &:after {
+        .square(88px);
+        content: "";
+        .inline-block;
+        line-height: 88px;
+        border-radius: 50%;
+        background-color: @brand-primary;
+        opacity: 0;
+        .absolute;
+        z-index: -1;
+        top: -2%;
+        left: -80%;
+        transform: scale(0);
+        transition: transform 0.3s, opacity 0.3s;
+      }
+    }
+  }
+  &:hover span {
+    border: transparent;
+    i {
+      color: @bright-text-color;
+    }
+    i:after {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 }
