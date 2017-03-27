@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a27c0d75-1383-46ec-8898-0e9a95802948" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/top_slider.less" afterPath="$PROJECT_DIR$/source/top_slider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/home.less" afterPath="$PROJECT_DIR$/source/home.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +23,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="190" column="38" lean-forward="true" selection-start-line="190" selection-start-column="38" selection-end-line="190" selection-end-column="38" />
+                <state relative-caret-position="340">
+                  <caret line="623" column="46" lean-forward="false" selection-start-line="623" selection-start-column="46" selection-end-line="623" selection-end-column="46" />
                   <folding>
                     <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -57,11 +56,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="top_slider.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="top_slider.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/source/top_slider.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="743">
-                  <caret line="112" column="3" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
+                <state relative-caret-position="352">
+                  <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -77,11 +76,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="home.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/home.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="623">
-                  <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+                <state relative-caret-position="555">
+                  <caret line="420" column="19" lean-forward="true" selection-start-line="420" selection-start-column="19" selection-end-line="420" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -145,6 +144,10 @@
       <find>footer-social</find>
       <find>photo-b</find>
       <find>favicon.ico</find>
+      <find>promo-logos</find>
+      <find>siz</find>
+      <find>pase</find>
+      <find>Pasek Logo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -163,11 +166,11 @@
         <option value="$PROJECT_DIR$/source/mixins.less" />
         <option value="$PROJECT_DIR$/source/global.less" />
         <option value="$PROJECT_DIR$/source/footer.less" />
-        <option value="$PROJECT_DIR$/source/home.less" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/source/bootstrap_less/bootstrap.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/source/top_slider.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/source/home.less" />
       </list>
     </option>
   </component>
@@ -372,15 +375,15 @@
       <workItem from="1490450054364" duration="14175000" />
       <workItem from="1490537430963" duration="12752000" />
       <workItem from="1490599057309" duration="9581000" />
-      <workItem from="1490633329618" duration="4718000" />
+      <workItem from="1490633329618" duration="5355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54939000" />
+    <option name="totallyTimeSpent" value="55576000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19336143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -793,14 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -819,16 +814,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/top_slider.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="112" column="3" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
+        <state relative-caret-position="352">
+          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="420" column="19" lean-forward="true" selection-start-line="420" selection-start-column="19" selection-end-line="420" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="190" column="38" lean-forward="true" selection-start-line="190" selection-start-column="38" selection-end-line="190" selection-end-column="38" />
+        <state relative-caret-position="340">
+          <caret line="623" column="46" lean-forward="false" selection-start-line="623" selection-start-column="46" selection-end-line="623" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

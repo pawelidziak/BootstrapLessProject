@@ -413,15 +413,18 @@
   .flex-display; // sposob w jakis ma sie zachowywac zawartosc listy
   .flex-justify; // -||-
   li {
-    .inline-block;
+    .block;
     line-height: 1.2;
     a {
       color: @dark-bg;
-      .block;
+      .inline-block;
       opacity: 0.2;
       margin-left: 10px;
       margin-right: 10px;
-      font-size: 74px;
+      font-size: 30px;
+      @media @small{
+        font-size: 70px;
+      }
       .basic-transition;
       &:hover {
         opacity: 0.6;
