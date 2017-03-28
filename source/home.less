@@ -115,9 +115,10 @@
   @media @small {
     .padding-top-bottom(150px; 150px);
   }
-  .bg-image(url('http://placehold.it/1000x500'));
+  .bg-image(url('../images/video_bg.jpg'));
   .embed-responsive {
-    background-color: red;
+    border: 2px solid @light-gray;
+    border-radius: 2px;
   }
   //background: none repeat rgba(30, 30, 30, 0.3);
 }
@@ -281,6 +282,10 @@
   .shadow(0 1px 0 rgba(0, 0, 0, 0.1));
   padding: 25px;
   border-radius: 3px;
+  margin-bottom: 20px;
+  @media @small{
+    margin-bottom: 0;
+  }
   h3 {
     letter-spacing: 0.5;
     margin-bottom: 25px;
@@ -422,7 +427,7 @@
       margin-left: 10px;
       margin-right: 10px;
       font-size: 30px;
-      @media @small{
+      @media @small {
         font-size: 70px;
       }
       .basic-transition;
@@ -436,7 +441,7 @@
 // Sekcja statystyki
 .statistics {
   .padding-top-bottom(60px; 60px);
-  .bg-image(url('http://placehold.it/1000x800'));
+  .bg-image(url('../images/statictics_bg.jpg'));
   @media @medium {
     .padding-top-bottom(100px; 100px);
   }
@@ -456,11 +461,11 @@
   .center-text;
 }
 
-.statistics-icon {
-  .inline-block;
-  margin-bottom: 10px;
-  .icon(@bright-text-color, 26px);
-}
+//.statistics-icon {
+//  .inline-block;
+//  margin-bottom: 10px;
+//  .icon(@bright-text-color, 26px);
+//}
 
 .statistics-value {
   height: 40px;
