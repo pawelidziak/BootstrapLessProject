@@ -84,14 +84,15 @@
 // Menu mobilne
 .mobile-menu {
   display: none;
-  width: 50%;
+  width: 100%;
   position: fixed;
   top: 0;
-  bottom: 0;
+  //right: 100%;
   left: 0;
   z-index: 999;
   background: @dark-bg;
-  padding: 30px 20px 0 30px;
+  padding: 30px 20px 30px 30px;
+
 }
 
 .mobile-menu-close {
@@ -108,9 +109,13 @@
 
 .main-nav-list-mobile {
   .list-style-none;
+  .active{
+    color: @brand-primary;
+  }
   li {
     margin-bottom: 10px;
     line-height: 1.4;
+    font-size: 15px;
     a {
       color: @bright-text-color;
       opacity: 0.5;
@@ -130,7 +135,7 @@
   border-radius: 2px;
   padding: 2px 4px;
   display: table;
-  &:hover{
+  &:hover {
     color: @menu-hover-color;
   }
   i {
